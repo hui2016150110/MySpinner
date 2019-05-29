@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         spinner.setBackgroundColor(0x0);
         //加载下拉框的样式
         adapter.setDropDownViewResource(R.layout.spinner_item);
-        
+
         spinner.setAdapter(adapter);
     }
 }
