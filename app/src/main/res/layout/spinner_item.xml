@@ -4,8 +4,7 @@
     android:layout_height="wrap_content"
     android:textColor="#6d6d6d"
     android:textSize="15sp"
-    android:padding="8dp"
+    android:padding="6dp"
     android:gravity="center"
-    android:drawableRight="@drawable/arrow"
     >
 </TextView>
