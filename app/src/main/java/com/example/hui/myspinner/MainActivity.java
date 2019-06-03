@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
         spinner.setBackgroundColor(0x0);
         //加载下拉框的样式
         adapter.setDropDownViewResource(R.layout.spinner_item);
-        //spinner.setPopupBackgroundResource(R.drawable.background);
-        spinner.setDropDownVerticalOffset(dip2px(30));
-
+        spinner.setPopupBackgroundResource(R.drawable.chat2);
+        spinner.setDropDownVerticalOffset(dip2px(20));
+        spinner.setDropDownWidth(dip2px(180));
         spinner.setAdapter(adapter);
 
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
