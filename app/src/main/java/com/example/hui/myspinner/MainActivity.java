@@ -89,3 +89,5 @@ class MyAdapter<T> extends ArrayAdapter<T>{
     }
 
 }
+
+//添加一些注释，这是dev分支添加的
