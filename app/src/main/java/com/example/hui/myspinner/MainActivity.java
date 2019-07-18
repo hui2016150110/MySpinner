@@ -89,3 +89,5 @@ class MyAdapter<T> extends ArrayAdapter<T>{
     }
 
 }
+
+//这是test分支添加的，要怎么合并才不会冲突呢？
